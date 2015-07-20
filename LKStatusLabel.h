@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LKStatusLabel : UIView {
+@interface LKStatusLabel : UILabel {
     UILabel *statusLabel;
     CGRect statusFrame;
     CAGradientLayer *statusGradient;
